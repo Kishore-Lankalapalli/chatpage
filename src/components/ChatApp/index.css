@@ -1,0 +1,155 @@
+/* Write your CSS here */
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 10px;
+}
+
+.introduction-header-heading {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #0b1211;
+}
+
+.header-description {
+  font-family: 'Roboto';
+  font-size: 11px;
+  color: #a7b0af;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .introduction-header-heading {
+    font-size: 20px;
+  }
+  .header-description {
+    font-size: 13px;
+  }
+}
+
+.count-dash-line {
+  height: 6px;
+  width: 1px;
+}
+.responded-members-count {
+  display: flex;
+  margin-right: 10px;
+}
+.group-icon {
+  height: 20px;
+  width: 20px;
+}
+.members-count-container {
+  display: flex;
+  align-items: center;
+}
+.chat-container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.messages-list-container {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: auto;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.input-container {
+  width: 100%;
+  display: flex;
+  border-radius: 9px;
+  border: 1px solid #8c8484;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .input-container {
+    height: 45px;
+    border-radius: 13px;
+  }
+}
+.input-element {
+  width: 80%;
+  margin-right: 9px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding-left: 10px;
+}
+.send-button {
+  border: none;
+  background-color: transparent;
+}
+.send-icon {
+  height: 20px;
+  width: 20px;
+}
+@media screen and (min-width: 768px) {
+  .send-icon {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+.username-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #2e2d2d;
+}
+
+.message-text {
+  font-family: 'Roboto';
+  font-size: 11px;
+  color: #131114;
+  margin-top: 0px;
+}
+@media screen and (min-width: 768px) {
+  .username-text {
+    font-size: 18px;
+  }
+  .message-text {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+.message-details-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+.message-item {
+  display: flex;
+}
+.like-container {
+  display: flex;
+  align-items: center;
+}
+.like-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.user-name {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: black;
+  margin-bottom: 10px;
+}
